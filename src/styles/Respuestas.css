@@ -1,0 +1,556 @@
+  /*------------------ formulario comun --------------*/
+  .formulario-contenedor-text-editor{
+    position: relative;
+    margin-top: 20px;
+    width: 600px !important;
+    min-width: 600px !important;
+    padding-bottom: 20px;
+    
+    
+    
+  }
+  .editor{
+    z-index: -1000 !important;
+    
+  }
+  .respuestaError{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .Registrarse-si-no{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+  }
+  .Registrarse-si-no p{
+    margin-right: 5px;
+  }
+  .Registrarse-si-no a{
+    text-decoration: underline;
+  }
+  .formulario-contenedor-text{
+    transition: 0.9s !important;
+    position: relative;
+    width: 300px !important;
+    min-width: 300px !important;
+    padding-bottom: 20px;
+    /*border: 1px solid rgb(218, 213, 213);*/
+    background-color: #fff;
+  }
+  .margin-buttom{
+    margin-top: 20px;
+  }
+.texto-encabezado-formulario{
+  display: flex;
+  justify-content: center;
+  
+}
+.texto-encabezado-formulario p{
+  font-size: 32px;
+  font-family: 'Pangolin', cursive;
+}
+.texto-encabezado-pregunats-recientes{
+  display: flex;
+  justify-content: center;
+}
+.texto-encabezado-pregunats-recientes p{
+  font-size: 25px;
+  font-family: 'Pangolin', cursive;
+}  
+@media screen and (max-width:600px) {
+  .texto-encabezado-pregunats-recientes p{
+    margin-top: -15px;
+    margin-bottom: -2px;
+  } 
+}
+@media screen and (max-width:450px) {
+  .texto-encabezado-formulario{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    height: 90px;
+  }
+  
+}
+.contenedor-input{
+  width: 100%;
+  display: flex !important;
+  justify-content: center !important;
+
+}
+.input-text{
+    box-shadow: none !important;
+    border-bottom: 1px solid #0d47a1 !important;
+    transition: 0.5s;
+    
+}
+.input-text:hover{
+    box-shadow: none !important;
+    border-bottom: 1px solid #0d47a1 !important;
+}  
+
+.contenedor-de-radio {
+ margin-left: 100px !important;
+}
+
+.formulario-contenedor-text span{
+    color: #1b1b1b !important;
+}
+.formulario-contenedor-text .btnn{
+    float: right;
+    background-color: #0d47a1 !important;
+}
+.formulario-contenedor-text-editor .btnn{
+  float: right;
+  background-color: #0d47a1 !important;
+}
+.formulario-contenedor-text-editor .btnn :hover{
+  float: right;
+  background-color: #0d47a1 !important;
+}
+.editor{
+  margin-bottom: 10px;
+}
+  
+
+.file-select {          
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 10px;
+  
+}
+ .jj{
+  background: #373b44; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #373b44, #4286f4); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #373b44, #4286f4);
+ }
+.file-select::before {
+  background-color: #1a237e ;
+
+
+  color: white;
+  display: flex;            
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  content: 'Seleccionar'; /* testo por defecto */
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0; 
+  position: absolute; 
+  cursor: pointer;              
+}
+ 
+.file-select input[type="file"] {
+ opacity: 0; 
+ width: 100%; 
+ height: 30px;         
+}
+ 
+#src-file1::before {
+  content: 'añadir una foto a la respuesta';
+}
+/*------------------ fin del formulario comun --------------*/
+
+
+
+
+
+@media screen and (max-width:700px){
+  .formulario-contenedor-text-editor{
+    width: 450px !important;
+    min-width: 450px !important;
+
+  }
+}
+  @media screen and (max-width:520px){
+  .contenedor-descripcion-pregunta{
+    width: 100%;
+    height: auto;
+    background-color:#e3f2fd;
+    border-radius: 20px;
+    border: 1px solid rgb(218, 213, 213);
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  .contenedor-descripcion-pregunta p{
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  .formulario-contenedor-pregunta h4{
+    text-align: center;
+    color: #1b1b1b;
+    margin-left:20px;
+  }
+}
+@media screen and (max-width:520px){
+  .formulario-contenedor-text-editor{
+    width: 350px !important;
+    min-width: 350px !important;
+
+
+  }
+}
+@media screen and (max-width:400px){
+  .formulario-contenedor-text-editor{
+    width: 90% !important;
+    /*min-width: 320px !important;*/
+  }
+}
+@media screen and (max-width:330px){
+  .formulario-contenedor-text-editor{
+   /* width: 100% !important;*/
+    /* min-width: 250px !important;*/
+
+  }
+  .formulario-contenedor-text{
+    width: 250px !important;
+    min-width: 250px !important;
+  }
+}
+/* respuestas-respuestas -------*/
+
+.estilos-respuestas{
+  width: 100% ;
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+  justify-content: start;
+}
+.contenedor-titulo-fecha-respuesta{
+  margin-bottom: 20px;
+  border-radius: 40px;
+  width: auto;
+  min-width: 350px;
+  max-width: 650px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #e3f2fd;
+}
+
+
+
+
+
+
+
+
+
+
+/*
+
+.contenedor-principal-respuestas{
+  width: 100% ;
+  height: auto;
+  display: flex;
+  justify-content: end;
+}
+.contenedor-lateral-izquierdo-respuestas{                      
+  height:auto;
+  display: flex;
+  flex-direction: row;
+
+}
+.contenedor-lateral-izquierdo-respuestas p{
+  background-color: #bbdefb ;
+  padding:2px 3px;
+  border-radius:10px;
+  border:1px solid #81d4fa;
+  margin-left: 5px;
+
+}
+.contenedor-lateral-derecho-respuestas{
+  width: 100%;
+  height: auto;
+  background-color: #e3f2fd;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  border:1px solid #b3e5fc ;
+  border-radius: 20px;
+  margin-bottom:20px;
+  padding: 0px 5px;
+  
+}
+.imagen-de-la-teoria{
+  width: 210px;
+  background-color: #fff  ;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+}
+.imagen-de-la-teoria img{
+  width: 200px;
+}
+.contenedor-lateral-derecho-respuestas blockquote {
+  border-color: #0d47a1 !important;
+}
+
+.contenedor-derecho-teoria{
+  width: 100%; 
+}
+.contenedor-derecho-teoria-responsive{
+  width: 100%;
+}
+
+
+.contenedor-lateral-derecho-respuestas h2{
+  font-size: 18px !important;
+}
+.contenedor-lateral-derecho-respuestas h3{
+  font-size: 23px !important;
+}
+.contenedor-lateral-derecho-respuestas p{
+ font-size: 17px;
+}
+.contenedor-derecho-foto{
+  width: 100%;
+  display: flex;
+ 
+}
+.contenedor-derecho-foto a {
+  width: 10%;
+  display: flex;
+  margin-bottom:20px;
+  margin-left:20px;
+ 
+}
+/* fin de respuestas-respuestas -------*/
+@media screen and (max-width:1200px){
+  .contenedor-principal-respuestas{
+    width: 100%;
+    display: flex;
+    height:auto; 
+    margin-bottom:20px;
+  }
+  .contenedor-lateral-derecho-respuestas{
+    width: 100%;
+    height: auto;
+    background-color: #e3f2fd;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    border:1px solid  #b3e5fc ;
+    border-radius: 20px;
+    margin-bottom:20px;
+  }
+}
+
+@media screen and (max-width:500px){
+  .contenedor-principal-respuestas{
+    width: 100%;
+    display: flex;
+    height:auto; 
+    margin-bottom:20px;
+  }
+  .contenedor-lateral-derecho-respuestas{
+    width: 100%;
+    height: auto;
+    background-color: #e3f2fd ;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    border:1px solid #b3e5fc ;
+    border-radius: 20px;
+    margin-bottom:20px;
+  }
+}
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****************previsualizacion**************/
+
+.previsualizacion{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.previsualizacion-50{
+  width: auto;
+  min-width: 350px;
+  max-width: 650px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+.contenido-teorico{
+  width: 100%;
+
+}
+
+
+
+.contenido-teorico li{
+  font-size: 15px !important;
+  line-height: 1.4 !important;
+}
+.contenido-teorico p{
+  font-size: 15px !important;
+  line-height: 1.4 !important;
+}
+.contenido-teorico h1{
+  font-size: 15px !important;
+  line-height: 1.4 !important;
+}
+.contenido-teorico h2{
+  font-size: 15px !important;
+  line-height: 1.4 !important;
+}
+.contenido-teorico h3{
+  font-size: 15px !important;
+  line-height: 1.4 !important;
+}
+.contenido-teorico h4{
+  font-size: 15px !important;
+  line-height: 1.4 !important;
+}
+
+
+.imagen-previ{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.imagen-previ img{
+  width:200px;
+}
+.margen-abajo{
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width:620px){
+  .previsualizacion-50{
+    max-width: 450px;
+    min-width: 170px;
+  }
+
+   .contenido-teorico li{
+    font-size: 15px !important;
+    line-height: 1.4 !important;
+  }
+  .contenido-teorico p{
+    font-size: 15px !important;
+    line-height: 1.4 !important;
+  }
+  .contenido-teorico h1{
+    font-size: 15px !important;
+    line-height: 1.4 !important;
+  }
+  .contenido-teorico h2{
+    font-size: 15px !important;
+    line-height: 1.4 !important;
+  }
+  .contenido-teorico h3{
+    font-size: 15px !important;
+    line-height: 1.4 !important;
+  }
+  .contenido-teorico h4{
+    font-size: 15px !important;
+    line-height: 1.4 !important;
+  }
+}
+@media screen and (max-width:550px){
+  .previsualizacion-50{
+    max-width: 320px;
+  }
+}
+
+/******************* MODAL **********************/ 
+
+.modal-form{
+  width: 300px !important ;
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+  height: auto !important ;
+  margin-bottom: -10px !important;
+  background-color: #fff !important;
+
+}
+.modall{
+  width: 50%  ;
+  display: flex;
+  justify-content: center;
+  height: 100% ;
+  background-color: #1b1b1b !important;
+
+}
+.modal-content img{
+  width: 100%;
+  height: 100%;
+  
+}
+
+
+@media screen and (max-width:1600px){
+  .modall{
+    width: 90% !important ;
+    height: 100% !important ;
+    display: flex;
+  }
+  .modal-form{
+    width: 300px !important ;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    height: auto !important ;
+    margin-bottom: -10px !important;
+  
+  }
+}
+
+
+@media screen and (max-width:1000px){
+  .modall{
+    width: 100% !important ;
+    height: 100% !important ;
+    display: flex;
+  }
+  .modal-form{
+    width: 300px !important ;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    height: auto !important ;
+    margin-bottom: -10px !important;
+  
+  }
+}
+@media screen and (max-width:500px){
+
+  .modal-form{
+    width: 100% !important ;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    height: auto !important ;
+    margin-bottom: -10px !important;
+  
+  }
+}

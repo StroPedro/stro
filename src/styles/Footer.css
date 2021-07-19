@@ -1,0 +1,66 @@
+/* suscription */
+.suscription-mapa{
+  position: relative;
+  width: 100%;
+  height: 210px;
+  display: flex;
+  flex-direction: row;
+  background: #1b1b1b; 
+  bottom: 0px; 
+}
+.suscription{
+    width: 50%;
+    height: 200px;
+}
+.mapa{
+    width: 50%;
+    height:200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text-suscription{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-suscription h1{
+    font-size: 40px;
+    color: #bdbdbd;
+}
+.input-suscription{
+    position: relative;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  @media screen and (max-width:850px) {
+    .suscription-mapa{
+      position: relative;
+      width: 100%;
+      height: 250px;
+      bottom:0px !important;
+      display: flex;
+      flex-direction: column;
+      background: #1b1b1b;
+      
+    }
+    .suscription{
+        width: 100%;
+        height: auto;
+    }
+    .mapa{
+        width: 100%;
+        height: 150px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+  }

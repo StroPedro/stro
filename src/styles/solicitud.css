@@ -1,0 +1,64 @@
+/*------------------ formulario comun --------------*/
+.alargarbody{
+    height: 800px;
+  }
+  .formulario-contenedor{
+    position: relative;
+    top: 100px;
+    width: 350px;
+    min-width: 350px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    margin-bottom: 150px;
+    border: 1px solid rgb(218, 213, 213);
+    background-color: #fff;
+     
+  }
+  
+  .formulario-contenedor .btn{
+    float: right;
+    background-color: olive;
+  }
+  
+  
+  .formulario-contenedor .input-text{
+    box-shadow: none !important;
+    border-bottom: 1px solid olive !important;
+    transition: 0.5s;
+    border: 1px solid #eee;
+    
+  }
+  
+  
+  .formulario-contenedor p{
+    margin-left: 100px;
+  }
+  
+  
+  .formulario-contenedor span{
+    color: #1b1b1b !important;
+  }
+  
+  
+  .formulario-contenedor .input-text:hover{
+    box-shadow: none !important;
+    border-bottom: 1px solid orange !important;
+  }
+  
+  
+  .texto-encabezado h4,.texto-encabezado h5{
+    text-align: center;
+    color: olive;
+    font-size:25px;
+    margin-left:20px;
+  }
+  
+  
+  
+  ul .error-desplegable{
+    position: absolute;
+    color: red;
+  }
+  
+  
+  /*------------------ fin del formulario comun --------------*/

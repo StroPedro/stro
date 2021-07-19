@@ -1,0 +1,78 @@
+/*------------------ contenedor de targetas   --------------*/
+.contenedor-de-card {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;  
+}
+
+.targeta{
+ width: 100%;
+ margin-bottom: 20px;
+ 
+}
+
+.targeta-foto{
+  width: 100%;  
+}
+
+.targeta-foto img{
+ width: 100%; 
+}
+
+.targeta-link{
+ position: relative;
+ width: 100%;
+ height: auto;
+ background-color: #fff;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ z-index: 1;
+}
+
+.targeta-link a{
+ color: #1b1b1b;
+ font-size: 18px;
+}
+.targeta-link h6{
+ text-align: center;
+ color: #1b1b1b;
+ margin-bottom: 10px;
+ padding:10px;
+ font-size: 15px !important;
+}
+
+.targeta-link a:hover{
+ text-decoration-line: underline;
+}
+
+
+.contenedor-50{
+ width: 30%;
+ border:1px solid #eee;
+ min-width: 200px;
+ margin:10px 10px;
+ border: 1px solid rgb(218, 213, 213);
+}     
+
+@media screen and (max-width: 800px){
+  .contenedor-50{
+    width: 40% ;
+    min-width: 230px;
+    border:1px solid #eee;
+    margin:5px 5px;
+    border: 1px solid rgb(218, 213, 213);
+   }
+}
+@media screen and (max-width: 560px){
+  .contenedor-50{
+    width: 95% ;
+    min-width: 250px;
+    border:1px solid #eee;
+    margin:10px 10px;
+    border: 1px solid rgb(218, 213, 213);
+   }
+}
+/*------------------ fin de  contenedor de targetas   --------------*/

@@ -1,0 +1,64 @@
+/* ------------------------- */
+/*seccion de suscripcion */
+/* ------------------------- */
+.contenedor-suscripcion{
+    margin-top:150px;
+  }
+  .botton-suscripcion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute !important;
+    height: 28px;
+    width: 30px !important;
+    right: 57px;
+    background-color: #e65100 !important;
+    box-shadow:none !important;
+  }
+  .botton-suscripcion i{
+    font-size: 25px;
+    color: #fff !important;
+  }
+  .botton-suscripcion:hover{
+    background-color: #e65100 !important;
+    text-decoration-line: none;
+  }
+  .bloque-suscripcion input[type = text]{
+    position: relative;
+    top: -10px;
+    padding: 0px 20px;
+    height: 25px;
+    width: 100%;
+    right: 100px;
+    border: 2px solid #e65100 !important;
+    box-shadow:none !important;
+    color: #fff;
+  }
+  .bloque-suscripcion  input[type=text]:focus {
+    border: 2px solid #e65100 !important;
+    box-shadow:none !important;
+  }
+  .contenedor-busqueda-padre{
+    position: relative;
+    top: -50px;
+    width: 100%;
+    height: auto;
+    display:flex;
+    justify-content: center;
+    background-color: olive;
+  }
+  
+  
+  .contenedor-busqueda{
+    position:absolute;
+    width: 25%;
+  }
+  
+  .bloque-suscripcion  input[type=text]:hover .contenedor-busqueda{
+    width: 400px;
+    
+  }
+  
+  /* ------------------------- */
+  /*FIN DE LA seccion de suscripcion */
+  /* ------------------------- */

@@ -1,0 +1,64 @@
+.contenedor-card{
+    margin-top: 30px;
+    height: auto;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid rgb(218, 213, 213) !important;
+    display: flex;
+    flex-direction: row;
+  
+  }
+  .contenedor-img-pub{
+    height: 100%;
+  }
+  .nombre-user{
+    width: 40%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+  
+  }
+  .nombre-user h5{
+    color: #1b1b1b;
+    margin-left: 10px;
+    margin-bottom: 18px;
+  }
+  .nombre-user h6{
+    color: #1b1b1b;
+    margin-left: 20px;
+    
+  }
+  .link-compra-examen{
+    width: 60%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+  }
+  
+  .link-compra-examen .btn{
+   background-color:#eee !important;
+   box-shadow: none !important;
+   border: 1px solid rgb(218, 213, 213) !important;
+   color: #1b1b1b;
+  }
+
+  @media screen and (max-width:500px) {
+    .contenedor-card{
+      flex-direction: column;
+    }
+    .nombre-user{
+      width: 100%;
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .link-compra-examen{
+      width: 100%;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content:center;
+    }
+  }

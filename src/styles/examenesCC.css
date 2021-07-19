@@ -1,0 +1,8 @@
+.pdfVista{
+    width: 100%;
+}
+
+.pdfVista iframe{
+    width: 100%;
+    height: 1000px;
+}

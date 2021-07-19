@@ -1,0 +1,62 @@
+/*------------------ barra de navegacion --------------*/
+.navbar-fixed{
+    width:100%;
+    display:flex;
+    justify-content:center;
+}
+nav{
+    /*background-color:#1b1b1b;  */
+    background-color: white !important;
+    box-shadow: none !important;
+    border-bottom: 1px solid rgb(218, 213, 213);
+    z-index: 1000 !important;
+  }
+  
+  nav a{
+    color: #1b1b1b !important;
+    
+  }
+  nav a:hover{
+    background-color: transparent !important;
+    text-decoration-line: underline;
+  }
+  nav .brand-logo:hover{
+    text-decoration-line: none !important;
+  }
+  
+  .brand-logo{
+    color: #0d47a1  !important;
+    font-size :50px !important;
+  }
+  .logo{
+    color: #0d47a1 !important;  
+  }
+  
+  .salir{
+    position: absolute !important;
+    color:#eee;
+    right: -100px;
+    display:none;
+  }
+  .menu-btn{
+    text-decoration-line: none !important; 
+  }
+  .menu-btn i{
+    color:#1b1b1b !important;
+  }
+  .sidenav{
+    z-index:2000 !important ;
+  
+    
+  }
+  .sidenav a {
+    background: transparent !important;
+    color: #1b1b1b !important;
+  }
+
+  .sidenav a :hover{
+    background: transparent !important;
+  }
+  /*------------------ fin de la barra de navegacion --------------*/
+  
+  

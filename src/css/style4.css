@@ -1,0 +1,21 @@
+
+.main {
+  background: rgba(0, 0, 0, 0.1);
+}
+#pdf_viewer{
+  display:flex;
+  justify-content: center;
+  overflow: auto;
+  left: -100px !important;
+}
+.canvas_container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+}
+
+#error {
+  color: red;
+  font-size: .8rem;
+}

@@ -1,0 +1,51 @@
+/*------------------ formulario comun --------------*/
+.formID{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.formulario-contenedor{
+    position: relative;
+    top: 100px;
+    width: 300px;
+    min-width: 300px;
+    height: auto;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    border: 1px solid rgb(218, 213, 213);
+    background-color: #fff ;    
+  }
+ 
+
+
+
+.botones-decargas{
+  width: 100%;
+}
+
+
+
+
+  .formulario-contenedor-iniciar-seccion-pregunta{
+    position: relative;
+    top: 100px;
+    width: 300px;
+    min-width: 300px;
+    height: auto;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    border: 1px solid rgb(218, 213, 213);
+    background-color: #fff;    
+  }
+  .texto-encabezado h4{
+    text-align: center;
+    color: olive;
+    font-size:25px;
+    margin-left:20px;
+  }
+  
+  .respuestaError p{
+    color: #F44747;
+  }
+  
+  /*------------------ fin del formulario comun --------------*/

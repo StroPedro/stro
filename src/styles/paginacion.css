@@ -1,0 +1,9 @@
+.paginacion{
+    width: 100%;
+    height: auto;
+    
+}
+
+.paginacion .active{
+    background-color:#0d47a1 !important ;
+}

@@ -1,0 +1,71 @@
+/*------------------ banner --------------*/
+  .pub{
+    width : 100%;
+    display: flex;
+    height: auto;
+    justify-content: center; 
+  }
+  .img-pub{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+  }
+  .pub-img{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   }
+  .pub-img img{
+   width: 100%;
+   height: auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: 1px solid rgb(218, 213, 213);
+   border-top:none;
+   
+  }
+  
+  .link-a{
+    position:absolute;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .link-a h4{
+   text-align: center;
+  }
+  .link-enlace a{
+    margin: 10px;
+    background-color:#eee !important;
+    width: 150px;
+    color:#1b1b1b ;
+  }
+  .link-enlace a:hover{
+    text-decoration-line:underline;
+  }
+  .link-enlace{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .link-enlace .btn{
+    box-shadow: none !important;
+    border: 1px solid rgb(218, 213, 213);
+  }
+  @media screen and (max-width:600px){
+    .pub{
+      width : 100% !important;
+      display: flex;
+      justify-content: center; 
+    }
+  }
+  
+  
+  /*------------------ fin del banner --------------*/

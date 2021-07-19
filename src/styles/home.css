@@ -1,0 +1,243 @@
+.contenedor-home{
+    width: 100%;
+}
+.contenedor-targetas-home{
+    /* margin-bottom :250px; */
+    width: 100%;
+    display:flex;
+    height: auto;
+}
+.respuestaError{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-de-banner{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    background: #021E7C;
+}
+.contenido-banner{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:  #e0e0e0 ;
+    text-align: center;
+}
+.link-boton{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.link-boton a{
+    margin: 10px;
+    
+}
+.aparecer-back-boton{
+    background-color: #1a237e !important;
+}
+.no-apareser-boton{
+    background-color: #021E7C !important;
+    box-shadow: none !important;
+}
+
+
+
+
+.contenedor-de-targetas-visitas{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+
+}
+.contenedor-de-targetas-visitass{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+
+}
+.targeta-visita{
+    width: 400px;
+    height: auto;
+    
+}
+.targeta-visitaa{
+    width: 400px;
+    height: auto;
+    
+}
+.targeta-visitaa p{
+    text-align: center;
+    font-size: 20px;
+    color: #263238;
+    
+}
+
+
+
+
+
+.b1{
+    background-color: #e3f2fd ;
+}
+
+.b2{
+    background-color: #bbdefb;
+}
+.b3{
+    background-color: #90caf9 ;
+}
+.b4{
+    background-color: #64b5f6  ;
+}
+
+
+
+ .b1 .texto{
+    padding: 10px;
+    color: #5f5e5e;
+    font-size: 20px;
+    text-align: center;
+}
+.b2 .texto{
+    padding: 10px;
+    color: #5f5e5e;
+    font-size: 20px;
+    text-align: center;
+}
+.b3 .texto{
+    padding: 10px;
+    color: #263238 ;
+    font-size: 20px;
+    text-align: center;
+}
+.b4 .texto{
+    padding: 10px;
+    color: #263238 ;
+    font-size: 20px;
+    text-align: center;
+}
+.botton-ver-seccion{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.botton-ver-seccion a{
+   background-color:#0d47a1 !important ;
+   color: #eee;
+}
+ .b1 .botton-ver-seccion a{
+    margin: 10px;
+    box-shadow: none;
+    border-radius: 10px;
+    transition: 1s;
+}
+.b2 .botton-ver-seccion a{
+    margin: 10px;
+    box-shadow: none;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.b3 .botton-ver-seccion a{
+    margin: 10px;
+    box-shadow: none;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.b4 .botton-ver-seccion a{
+    margin: 10px;
+    box-shadow: none;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+@media screen and (max-width:500px){
+    .targeta-visita{
+        width: 100%;
+    }
+}
+
+
+
+
+.margen-arriba{
+    height: 10px;
+}
+
+
+.Effectos{
+    width: 100%;
+    height: 100px;
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.Effecto1{
+   position: relative;
+   top: -50px !important;
+   width: 150px;
+   height: 50px;
+   border-radius: 50%;
+   background: #021E7C;  /* fallback for old browsers */
+   transform: rotate(90deg);
+   z-index: -1;
+}
+.Effecto2{
+    margin-top: -30px;
+    margin-left:-85px ;
+    width: 15%;
+    height: 40%;
+    border-radius: 50%;
+    background: #021E7C;
+   
+    z-index: -1;
+ }
+
+ .Effecto3{
+    position: relative;
+    margin-top: -50px;
+    margin-left:-55px ;
+    width: 200px;
+    height: 60px;
+    border-radius: 50%;
+    background: #021E7C;
+    transform: rotate(90deg);
+    z-index: -1;
+ }
+
+
+
+ /*   formulario descargas  */
+
+ .botones-decargas{
+     width: 100%;
+     display: flex;
+     justify-content: center;
+ }
+ .botones-decargas .btn{
+    margin: 0px 5px;
+
+    background-color: #021E7C;
+    display: flex;
+    align-items: center;
+}
+.botones-decargas button i{
+    margin-left: 4px;
+    font-size: 20px;
+
+}

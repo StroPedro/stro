@@ -1,0 +1,53 @@
+.lista{
+    border-bottom : none !important;
+    border-top : none;
+    
+}
+.collection-item{
+    list-style-type: none !important;
+}
+.contenedor-lista-mat-formulario-ver-anuncio{
+    width : 100%;
+    display :flex;
+    flex-direction : row;
+}
+.coleccion-de-examenes{
+    width: 30%;
+    text-align: center !important;
+}
+.coleccion-de-examenes a{
+    text-align: center !important;
+    color:#1b1b1b;
+    display: flex;
+    
+}
+.examen{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.coleccion-de-examenes a:hover{
+    text-decoration-line:underline;
+    
+}
+.ver-solicitudes-nuevos-anuncios{
+    width: 70%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    padding-left:10px ;
+}
+@media screen and (max-width:800px){
+    .contenedor-lista-mat-formulario-ver-anuncio{
+        width : 100%;
+        display :flex;
+        flex-direction : column;
+    }
+    .coleccion-de-examenes{
+        width: 100%;
+    }
+    .ver-solicitudes-nuevos-anuncios{
+        width: 100%;
+    }
+}
