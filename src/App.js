@@ -1,5 +1,5 @@
 import React ,  {useState} from 'react'
-import { Switch , Route, BrowserRouter ,  } from 'react-router-dom'
+import { Switch , Route, BrowserRouter,HashRouter  } from 'react-router-dom'
 import Login from "./users/Login"
 import RegisT from './RegisT'
 import Profil from './users/Profil'
@@ -27,7 +27,7 @@ function App(){
     const [isAuthentificated , setIsAuthentificated] = useState(hasAuthentificated())
     return(
         <Auth.Provider value = {{isAuthentificated , setIsAuthentificated}} >
-            <BrowserRouter>
+            <HashRouter>
                     <Switch>
                             <Route exact path = "/" component = {Homme }/>
                             <Route exact  path= "/registro" component = {RegisT}/>
@@ -42,7 +42,7 @@ function App(){
                             <AuthentificatedRoute  path = "/profil" component = {Profil}/>
                             <Route   component = {PageNotFoun}/>                       
                     </Switch>
-            </BrowserRouter> 
+            </HashRouter> 
         </Auth.Provider>
     )
    
