@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "proxy": "http://localhost:5000/",
   "private": true,
-  "homepage": "http://StroPedro.github.io/mumbe",
+  "homepage": "http://StroPedro.github.io/stro",
   "dependencies": {
     "@ckeditor/ckeditor5-build-classic": "^26.0.0",
     "@ckeditor/ckeditor5-react": "^3.0.2",
