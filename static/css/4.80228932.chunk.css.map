@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/styles/paginacion.css"],"names":[],"mappings":"AAAA,YACI,UAAW,CACX,WAEJ,CAEA,oBACI,kCACJ","file":"4.80228932.chunk.css","sourcesContent":[".paginacion{\r\n    width: 100%;\r\n    height: auto;\r\n    \r\n}\r\n\r\n.paginacion .active{\r\n    background-color:#0d47a1 !important ;\r\n}"]}
