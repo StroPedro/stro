@@ -111,7 +111,7 @@ const Blog = (props) => {
             fs.append("user" , window.sessionStorage.getItem('user'))
             fs.append("pregunta" , addData)
             fs.append("numresp" , 0)
-            const respuesta = await axios.post("/preguntas", fs , {headers :{"Content-Type":"multipart/form-data"}})
+            const respuesta = await axios.post("https://app-node-react.herokuapp.com/preguntas", fs , {headers :{"Content-Type":"multipart/form-data"}})
             const respuestaServidor = respuesta.data
             console.log(respuestaServidor)
             setMensajeServidor(respuestaServidor)
@@ -142,7 +142,7 @@ const Blog = (props) => {
         e.preventDefault()
         const datos = await axios({
             method:'post' , 
-            url : '/buscar_pregunta', 
+            url : 'https://app-node-react.herokuapp.com/buscar_pregunta', 
             data: {'preguntaQueSeBusca':datoBusqueda}
         })
         
@@ -161,7 +161,7 @@ const Blog = (props) => {
    const TraerPreguntas = async () =>{
     const datos = await axios({
         method:'get' , 
-        url : '/coger-preguntas' , 
+        url : 'https://app-node-react.herokuapp.com/coger-preguntas' , 
     })
     console.log(datos.data.docs , "ffffffffffffffffffffffff")
     setPreguntasTraida(datos.data.docs)
@@ -183,7 +183,7 @@ const Blog = (props) => {
   const TraerPreguntasConPaginacion = async (id) =>{
     const datos = await axios({
         method:'get' , 
-        url : `/coger-preguntas-paginacio/${id}` , 
+        url : `https://app-node-react.herokuapp.com/coger-preguntas-paginacio/${id}` , 
     })
     console.log(datos.data.docs)
     setPreguntasTraida(datos.data.docs)

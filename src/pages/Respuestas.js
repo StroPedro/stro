@@ -70,7 +70,7 @@ const Respuestas = (props) => {
     const TraerPreguntas = async () => {
         const datos = await axios({
             method:'get' , 
-            url : `/pregunta-respuestas/${id}` , 
+            url : `https://app-node-react.herokuapp.com/pregunta-respuestas/${id}` , 
         })
         setPregunta(datos.data)
         console.log(datos.data)
@@ -84,7 +84,7 @@ const Respuestas = (props) => {
         e.preventDefault()
         const datos = await axios({
             method:'post' , 
-            url : '/buscar_respuesta', 
+            url : 'https://app-node-react.herokuapp.com/buscar_respuesta', 
             data: {'respuestaQueSeBusca':datoBusqueda}
         })
         
@@ -109,7 +109,7 @@ const Respuestas = (props) => {
     const TraerRespuestas = async () =>{
         const datos = await axios({
             method:'get' , 
-            url : `/coger-respuestas/${id}` , 
+            url : `https://app-node-react.herokuapp.com/coger-respuestas/${id}` , 
         })
         setRespuestas(datos.data)
         console.log(datos.data)
@@ -139,7 +139,7 @@ const Respuestas = (props) => {
             fs.append("user" , window.sessionStorage.getItem('user'))
             fs.append("respuesta" , addData)
             fs.append("id" , id)
-            const respuesta = await axios.post( `/respuestas/${id}`, fs , {headers :{"Content-Type":"multipart/form-data"}} )
+            const respuesta = await axios.post( `https://app-node-react.herokuapp.com/respuestas/${id}`, fs , {headers :{"Content-Type":"multipart/form-data"}} )
             const respuestaServidor = respuesta.data
     
             if (respuestaServidor != "") {
@@ -166,7 +166,7 @@ const Respuestas = (props) => {
     console.log(user)
      const datos = await axios({
          method:'post',
-         url:'/enviar' ,
+         url:'https://app-node-react.herokuapp.com/enviar' ,
          data:user
      })
      const resp = await datos.data["clave"]
@@ -192,7 +192,7 @@ const Respuestas = (props) => {
     console.log(user)
      const datos = await axios({
          method:'post',
-         url:'/api' ,
+         url:'https://app-node-react.herokuapp.com/api' ,
          data:userR
      })
      const resp = await datos.data["clave"]
