@@ -92,7 +92,7 @@ const  Home = (props) => {
     const BuscarMateria = async () =>{
         const datos = await axios({
             method:'get' , 
-            url : '/todasM'
+            url : 'https://app-node-react.herokuapp.com/todasM'
         })
         if (datos.data != "") {
             setVerMateria(datos.data)
@@ -107,7 +107,7 @@ const  Home = (props) => {
     const BuscarAnales = async () =>{
         const datos = await axios({
             method:'get' , 
-            url : '/todasAnales'
+            url : 'https://app-node-react.herokuapp.com/todasAnales'
         })
         console.log(datos.data , "sssssssssssssssssssssssss")
         if (datos.data != "") {
@@ -122,7 +122,7 @@ const  Home = (props) => {
     const todasLasMateriaDatos = async (materias) =>{
         const datos = await axios({
             method:'get' , 
-            url : '/uu/' + materias
+            url : 'https://app-node-react.herokuapp.com/uu/' + materias
         })
         console.log(datos.data)
         
@@ -139,7 +139,7 @@ const  Home = (props) => {
             console.log(datosMateria)
             const datos = await axios({
                 method:'get' , 
-                url : `/examenesSC/${datosMateria}`
+                url : `https://app-node-react.herokuapp.com/examenesSC/${datosMateria}`
             })
             console.log(datos.data)
             if ((datos.data != "") && ( datos.data != "Examen no disponible")) {                    
@@ -156,7 +156,7 @@ const  Home = (props) => {
             console.log(datosMateria)
             const datos = await axios({
                 method:'get' , 
-                url : `/examenesCC/${datosMateria}`
+                url : `https://app-node-react.herokuapp.com/examenesCC/${datosMateria}`
 
             })
             
@@ -176,7 +176,7 @@ const  Home = (props) => {
             console.log(datosMateria)
             const datos = await axios({
                 method:'get' , 
-                url : `/analesObtenerNo/${datosMateria}`
+                url : `https://app-node-react.herokuapp.com/analesObtenerNo/${datosMateria}`
             })
             
                 console.log(datos.data)
@@ -196,7 +196,7 @@ const  Home = (props) => {
                 console.log(datosMateria)
                 const datos = await axios({
                     method:'get' , 
-                    url : `/analesObtenerCo/${datosMateria}`
+                    url : `https://app-node-react.herokuapp.com/analesObtenerCo/${datosMateria}`
                 })
             
                 console.log(datos.data)

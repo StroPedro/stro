@@ -1,7 +1,7 @@
 {
   "name": "mayappp",
   "version": "0.1.0",
-  "proxy": "http://localhost:5000/",
+  "proxy": "https://app-node-react.herokuapp.com/",
   "private": true,
   "homepage": "http://StroPedro.github.io/stro",
   "dependencies": {
