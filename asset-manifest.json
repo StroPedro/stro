@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/stro/static/css/main.813b4323.chunk.css",
-    "main.js": "/stro/static/js/main.23e26d44.chunk.js",
-    "main.js.map": "/stro/static/js/main.23e26d44.chunk.js.map",
-    "runtime-main.js": "/stro/static/js/runtime-main.a4e5add1.js",
-    "runtime-main.js.map": "/stro/static/js/runtime-main.a4e5add1.js.map",
+    "main.js": "/stro/static/js/main.ca659fe4.chunk.js",
+    "main.js.map": "/stro/static/js/main.ca659fe4.chunk.js.map",
+    "runtime-main.js": "/stro/static/js/runtime-main.327d8b10.js",
+    "runtime-main.js.map": "/stro/static/js/runtime-main.327d8b10.js.map",
     "static/js/2.2674ac82.chunk.js": "/stro/static/js/2.2674ac82.chunk.js",
     "static/js/2.2674ac82.chunk.js.map": "/stro/static/js/2.2674ac82.chunk.js.map",
     "static/css/3.bab0b925.chunk.css": "/stro/static/css/3.bab0b925.chunk.css",
     "static/js/3.7c5decc0.chunk.js": "/stro/static/js/3.7c5decc0.chunk.js",
     "static/js/3.7c5decc0.chunk.js.map": "/stro/static/js/3.7c5decc0.chunk.js.map",
     "static/css/4.80228932.chunk.css": "/stro/static/css/4.80228932.chunk.css",
-    "static/js/4.0c396e82.chunk.js": "/stro/static/js/4.0c396e82.chunk.js",
-    "static/js/4.0c396e82.chunk.js.map": "/stro/static/js/4.0c396e82.chunk.js.map",
+    "static/js/4.2ff12e43.chunk.js": "/stro/static/js/4.2ff12e43.chunk.js",
+    "static/js/4.2ff12e43.chunk.js.map": "/stro/static/js/4.2ff12e43.chunk.js.map",
     "static/css/5.80f5adc1.chunk.css": "/stro/static/css/5.80f5adc1.chunk.css",
     "static/js/5.bf7cb37a.chunk.js": "/stro/static/js/5.bf7cb37a.chunk.js",
     "static/js/5.bf7cb37a.chunk.js.map": "/stro/static/js/5.bf7cb37a.chunk.js.map",
@@ -28,9 +28,9 @@
     "static/media/materialize-icons.css": "/stro/static/media/materialize-icons.dee1a952.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.a4e5add1.js",
+    "static/js/runtime-main.327d8b10.js",
     "static/js/2.2674ac82.chunk.js",
     "static/css/main.813b4323.chunk.css",
-    "static/js/main.23e26d44.chunk.js"
+    "static/js/main.ca659fe4.chunk.js"
   ]
 }
